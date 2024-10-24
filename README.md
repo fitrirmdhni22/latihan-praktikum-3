@@ -35,7 +35,4 @@ bilangan terbesar= 300
 ````
 
 # cara kerja program
-adanya variabel max di isi dengan nilai e, 
-setelah itu tardapat variabel inputan dengan nama bilangan, 
-jika kondisi bilangan tidak sama dengan maka cari bilangan lebih dari max dan variabel max di set dengan bilangan tersebut. 
-Jika bilangan lebih kecil dari max maka bilangan input kembali sehingga akan menghasilkan bilangan terbesar dari operasi tersebut.
+max = 0: Variabel max diset ke 0. Variabel ini akan digunakan untuk menyimpan nilai bilangan terbesar yang ditemukan.bilangan = int(input("masukan bilangan :")): Program meminta pengguna memasukkan bilangan pertama.Selama bilangan yang dimasukkan oleh pengguna bukan 0, program akan terus meminta input bilangan berikutnya.if bilangan > max: memeriksa apakah bilangan yang baru diinput lebih besar dari nilai max saat ini. Jika benar, maka max diperbarui dengan nilai bilangan tersebut.Jika bilangan lebih kecil atau sama dengan max, program akan meminta bilangan baru tanpa memperbarui max.Ketika pengguna memasukkan bilangan 0, loop berhenti karena kondisi bilangan != 0 menjadi False.Setelah loop selesai, program mencetak nilai max yang berisi bilangan terbesar yang dimasukkan oleh pengguna.
