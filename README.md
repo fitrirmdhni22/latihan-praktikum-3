@@ -9,7 +9,7 @@ Program ini di buat menggunakan bahasa Python dengan fitur:
 * Tampilkan hasilnya ke layar.
 
 ## Flowchart Programan
-![Flowchart](Flowchart1.png)
+![Flowchart](flowchart1.png)
 
 ## Cara Kerja Program 1
 Program meminta pengguna untuk memasukkan tiga angka yang disimpan dalam variabel a, b, dan c. Program menggunakan struktur kondisi if untuk membandingkan nilai dari ketiga variabel tersebut. melakukan pengecekan dengan urutan:
