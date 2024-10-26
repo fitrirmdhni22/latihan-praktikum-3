@@ -12,12 +12,15 @@ Program ini di buat menggunakan bahasa Python dengan fitur:
 ![Flowchart](flowchart1.png)
 
 ## Cara Kerja Program 1
-Program meminta pengguna untuk memasukkan tiga angka yang disimpan dalam variabel a, b, dan c. Program menggunakan struktur kondisi if untuk membandingkan nilai dari ketiga variabel tersebut. melakukan pengecekan dengan urutan:
--Program memeriksa apakah a lebih besar dari b.
--Jika benar (a > b), program melanjutkan untuk membandingkan a dengan c.
--Jika a juga lebih besar dari c, maka a adalah yang terbesar, sehingga variabel terbesar diisi dengan nilai a.
--Jika a tidak lebih besar dari c, maka c adalah yang terbesar, sehingga variabel terbesar diisi dengan nilai c.
--Jika salah (a <= b), program melanjutkan ke langkah berikutnya.
+Program ini mencari bilangan terbesar dari tiga angka yang dimasukkan pengguna. Berikut cara kerjanya secara ringkas:
+
+• Pengguna memasukkan tiga angka yang disimpan di variabel a, b, dan c.
+• Program membandingkan a, b, dan c menggunakan beberapa kondisi if.
+• Jika a lebih besar dari b, program akan mengecek apakah a juga lebih besar dari c. Jika iya, maka a adalah yang terbesar; jika tidak, maka c adalah yang terbesar.
+• Jika a tidak lebih besar dari b, program membandingkan b dengan c untuk menentukan apakah b atau c yang terbesar.
+• Program mencetak bilangan terbesar.
+
+Hasil akhirnya adalah nilai terbesar dari ketiga angka yang dimasukkan.
 
 ## Kode Program
 ```python
